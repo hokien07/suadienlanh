@@ -37,13 +37,6 @@
     <link href='<?php echo bloginfo("template_directory");  ?>/css/fl-glypho.css' rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-    <?php
-    global $hk_options;
-    echo "<pre>";
-    var_dump($hk_options);
-    echo "</pre>";
-
-    ?>
 	<?php wp_head(); ?>
 </head>
 
@@ -59,12 +52,7 @@
 						</a>
 					</div>
 					<nav class="nav">
-						<ul data-type="navbar" class="sf-menu">
-							<li class="active"><a href="<?php echo bloginfo('url')?>">Trang chủ</a></li>
-							<li><a href="<?php echo bloginfo('url')?>/gioithieu">Giới Thiệu</a></li>
-							<li><a href="<?php bloginfo('url')?>/tintuc">Tin Tức</a></li>
-							<li ><a href="<?php bloginfo('url')?>/lienhe">Liên hệ</a></li>
-						</ul>
+                        <?php hk_top_menu(); ?>
 					</nav>
 				</div>
 			</div>

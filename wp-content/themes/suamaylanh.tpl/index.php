@@ -30,21 +30,21 @@
 
 
 					<li>
-						<h3>Welcome</h3>
-						<h6>Chào mừng quý khách ghé thăm website vật liệu xây dựng</h6>
-						<p>Chúng tôi chuyên cung cấp vật liệu xây dựng các loại, giá tốt nhất, đầy đủ chủng loại đến mọi công trình</p>
+						<h3><?php echo $hk_options['header-title-1'] ?></h3>
+						<h6><?php echo $hk_options['header-sologan-1'] ?></h6>
+						<p><?php echo $hk_options['header-content-1'] ?></p>
 						<a href="#" class="btn">Chi tiết</a>
 					</li>
 					<li>
-						<h3>Sản phẩm</h3>
-						<h6>Chúng tôi cung cấp tất cả các sản phẩm vật liệu xây dựng</h6>
-						<p>Chúng tôi chuyên cung cấp vật liệu xây dựng các loại, giá tốt nhất, đầy đủ chủng loại đến mọi công trình</p>
+						<h3><?php echo $hk_options['header-title-2'] ?></h3>
+						<h6><?php echo $hk_options['header-sologan-2'] ?></h6>
+						<p><?php echo $hk_options['header-content-2'] ?></p>
 						<a href="#" class="btn">Chi tiết</a>
 					</li>
 					<li>
-						<h3>Dịch vụ</h3>
-						<h6>Dịch vụ vận chuyển và lắp đặt máy móc công trình</h6>
-						<p>Cung cấp dịch vụ bảo đảm, an toàn, hỗ trợ tốt nhất cho quý khách khi đến với cửa hàng của chúng tôi</p>
+						<h3><?php echo $hk_options['header-title-3'] ?></h3>
+						<h6><?php echo $hk_options['header-sologan-3'] ?></h6>
+						<p><?php echo $hk_options['header-content-3'] ?></p>
 						<a href="#" class="btn">Chi tiết</a>
 					</li>
 				</ul>
@@ -59,45 +59,45 @@
 			<ul class="row product-list">
 				<li class="col-md-2 col-sm-4 col-xs-12">
 					<div class="icon">
-						<img src="<?php echo bloginfo("template_directory");  ?>/images/product_1.jpg" alt="Sản phẩm">
+						<img src="<?php echo  $hk_options['dv-image-1']['url'] ?>" alt="Sản phẩm">
 					</div>
-					<h5>Sản phẩm</h5>
-					<p>Mẫu mã đa dạng nhiều chủng loại</p>
+					<h5><?php echo $hk_options['dv-title-1'] ?></h5>
+					<p><?php echo $hk_options['dv-content-1'] ?></p>
 				</li>
 				<li class="col-md-2 col-sm-4 col-xs-12">
 					<div class="icon">
-						<img src="<?php echo bloginfo("template_directory");  ?>/images/product_2.jpg" alt="Hướng dẫn">
+						<img src="<?php echo $hk_options['dv-image-2']['url'] ?>" alt="Hướng dẫn">
 					</div>
-					<h5>Hướng dẫn</h5>
-					<p>Sử dụng đúng cách an toàn nhất</p>
+					<h5><?php echo $hk_options['dv-title-2'] ?></h5>
+					<p><?php echo $hk_options['dv-content-2'] ?></p>
 				</li>
 				<li class="col-md-2 col-sm-4 col-xs-12">
 					<div class="icon">
-						<img src="<?php echo bloginfo("template_directory");  ?>/images/product_3.jpg" alt="Sử dụng">
+						<img src="<?php echo $hk_options['dv-image-3']['url'] ?>" alt="Sử dụng">
 					</div>
-					<h5>Sử dụng</h5>
-					<p>An toàn không độc hại, không chịu ảnh hưởng </p>
+					<h5><?php echo $hk_options['dv-title-3'] ?></h5>
+					<p><?php echo $hk_options['dv-content-3'] ?></p>
 				</li>
 				<li class="col-md-2 col-sm-4 col-xs-12">
 					<div class="icon">
-						<img src="<?php echo bloginfo("template_directory");  ?>/images/product_6.jpg" alt="Vân chuyển">
+						<img src="<?php echo $hk_options['dv-image-4']['url'] ?>" alt="Vân chuyển">
 					</div>
-					<h5>Vân chuyển</h5>
-					<p>Hỗ trợ vận chuyển cả trong tỉnh và ngoài tỉnh</p>
+					<h5><?php echo $hk_options['dv-title-4'] ?></h5>
+					<p><?php echo $hk_options['dv-content-4'] ?></p>
 				</li>
 				<li class="col-md-2 col-sm-4 col-xs-12">
 					<div class="icon">
-						<img src="<?php echo bloginfo("template_directory");  ?>/images/product_5.jpg" alt="Tư vấn">
+						<img src="<?php echo $hk_options['dv-image-5']['url'] ?>" alt="Tư vấn">
 					</div>
-					<h5>Tư vấn</h5>
-					<p>Vui lòng gọi 19001009 để được hỗ trợ tốt nhất</p>
+					<h5><?php echo $hk_options['dv-title-5'] ?></h5>
+					<p><?php echo $hk_options['dv-content-5'] ?></p>
 				</li>
 				<li class="col-md-2 col-sm-4 col-xs-12">
 					<div class="icon">
-						<img src="<?php echo bloginfo("template_directory");  ?>/images/product_6.jpg" alt="Phương châm">
+						<img src="<?php echo $hk_options['dv-image-6']['url'] ?>" alt="Phương châm">
 					</div>
-					<h5>Phương châm</h5>
-					<p>Xây cuộc sống mới - Dựng môi trường xanh</p>
+					<h5><?php echo $hk_options['dv-title-6'] ?></h5>
+					<p><?php echo $hk_options['dv-content-6'] ?></p>
 				</li>
 			</ul>
 		</div>
@@ -145,25 +145,25 @@
 			<h2 class="center">Khách hàng nói gì về chúng tôi</h2>
 			<div class="row">
 				<blockquote class="col-xs-12 col-sm-4">
-					<img src="<?php echo bloginfo("template_directory");  ?>/images/testimonial_1.jpg" alt="Anh VLXD">
+					<img src="<?php echo $hk_options['hinh-khach-1']['url'] ?>" alt="Anh VLXD">
 					<p>
-						<q>Chất lượng sản phẩm đảm bảo, thời gian đúng hẹn, phong cách làm việc chuyên nghiệp, đây chính là lý do tôi luôn tin tưởng các bạn trong 15 năm qua</q>
+						<q><?php echo $hk_options['noi-dung-1']?></q>
 					</p>
-					<cite><strong>Michel </strong> - Congtrinh.vn</cite>
+					<cite><?php echo $hk_options['ten-khach-hang-1']?></cite>
 				</blockquote>
 				<blockquote class="col-xs-12 col-sm-4">
-					<img src="<?php echo bloginfo("template_directory");  ?>/images/testimonial_1.jpg" alt="Anh VLXD">
+					<img src="<?php echo $hk_options['hinh-khach-2']['url'] ?>" alt="Anh VLXD">
 					<p>
-						<q>Chất lượng sản phẩm đảm bảo, thời gian đúng hẹn, phong cách làm việc chuyên nghiệp, đây chính là lý do tôi luôn tin tưởng các bạn trong 15 năm qua</q>
+						<q><?php echo $hk_options['noi-dung-2']?></q>
 					</p>
-					<cite><strong>Michel </strong> - Congtrinh.vn</cite>
+					<cite><?php echo $hk_options['ten-khach-hang-2']?></cite>
 				</blockquote>
 				<blockquote class="col-xs-12 col-sm-4">
-					<img src="<?php echo bloginfo("template_directory");  ?>/images/testimonial_1.jpg" alt="Anh VLXD">
+					<img src="<?php echo $hk_options['hinh-khach-3']['url']?>" alt="Anh VLXD">
 					<p>
-						<q>Chất lượng sản phẩm đảm bảo, thời gian đúng hẹn, phong cách làm việc chuyên nghiệp, đây chính là lý do tôi luôn tin tưởng các bạn trong 15 năm qua</q>
+						<q><?php echo $hk_options['noi-dung-3']?></q>
 					</p>
-					<cite><strong>Michel </strong> - Congtrinh.vn</cite>
+					<cite><?php echo $hk_options['ten-khach-hang-3']?></cite>
 				</blockquote>
 			</div>
 		</div>

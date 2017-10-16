@@ -1,3 +1,4 @@
+<?php global $hk_options; ?>
 <footer>
 <section class="map">
 	<div id="google-map" class="map_model"></div>
@@ -156,7 +157,7 @@
 </section>
 <section class="copyright">
 	<div class="container">
-		<span>© Bản quyền thuộc về <b>DQDT Team</b> <span class="fot-line">|</span> Cung cấp bởi <a href="" title="" target="_blank">Bizweb</a></span>
+		<span>© <?php echo $hk_options['copy'] ?> <span class="fot-line">|</span> Cung cấp bởi <a href="hokien07.net" title="" target="_blank">hokien07</a></span>
 	</div>
 </section>
 </footer>

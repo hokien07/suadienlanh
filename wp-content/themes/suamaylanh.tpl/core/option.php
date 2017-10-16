@@ -278,16 +278,16 @@ function my_plugin_activation()
         'icon'  => 'el el-pencil',
         'fields' => array(
             array(
-                'id'       => 'header-text-1',
+                'id'       => 'header-title-1',
                 'type'     => 'text',
-                'title'    => __( 'Tiêu Đề: ', 'redux-framework-demo' ),
+                'title'    => __( 'Tiêu Đề 1: ', 'redux-framework-demo' ),
                 'desc'     => __( 'Tiêu đề text box.', 'redux-framework-demo' ),
                 'hint'     => array(
                     'content' => 'Nhập tiêu đề thể hiện trên text box.',
                 )
             ),
             array(
-                'id'       => 'header-text-2',
+                'id'       => 'header-sologan-1',
                 'type'     => 'text',
                 'title'    => __( 'Slogan:  ', 'redux-framework-demo' ),
                 'desc'     => __( 'Câu slogan', 'redux-framework-demo' ),
@@ -296,7 +296,61 @@ function my_plugin_activation()
                 )
             ),
             array(
-                'id'       => 'header-text-3',
+                'id'       => 'header-content-1',
+                'type'     => 'textarea',
+                'title'    => __( 'Nội Dung Ngắn:  ', 'redux-framework-demo' ),
+                'desc'     => __( 'Nội dung ngắn được hiển thị ở trang chủ', 'redux-framework-demo' ),
+                'hint'     => array(
+                    'content' => 'Nội dung ngắn được hiển thị ở trang chủ.',
+                )
+            ),
+            array(
+                'id'       => 'header-title-2',
+                'type'     => 'text',
+                'title'    => __( 'Tiêu Đề 2: ', 'redux-framework-demo' ),
+                'desc'     => __( 'Tiêu đề text box.', 'redux-framework-demo' ),
+                'hint'     => array(
+                    'content' => 'Nhập tiêu đề thể hiện trên text box.',
+                )
+            ),
+            array(
+                'id'       => 'header-sologan-2',
+                'type'     => 'text',
+                'title'    => __( 'Slogan:  ', 'redux-framework-demo' ),
+                'desc'     => __( 'Câu slogan', 'redux-framework-demo' ),
+                'hint'     => array(
+                    'content' => 'Câu slogan.',
+                )
+            ),
+            array(
+                'id'       => 'header-content-2',
+                'type'     => 'textarea',
+                'title'    => __( 'Nội Dung Ngắn:  ', 'redux-framework-demo' ),
+                'desc'     => __( 'Nội dung ngắn được hiển thị ở trang chủ', 'redux-framework-demo' ),
+                'hint'     => array(
+                    'content' => 'Nội dung ngắn được hiển thị ở trang chủ.',
+                )
+            ),
+            array(
+                'id'       => 'header-title-3',
+                'type'     => 'text',
+                'title'    => __( 'Tiêu Đề 3: ', 'redux-framework-demo' ),
+                'desc'     => __( 'Tiêu đề text box.', 'redux-framework-demo' ),
+                'hint'     => array(
+                    'content' => 'Nhập tiêu đề thể hiện trên text box.',
+                )
+            ),
+            array(
+                'id'       => 'header-sologan-3',
+                'type'     => 'text',
+                'title'    => __( 'Slogan:  ', 'redux-framework-demo' ),
+                'desc'     => __( 'Câu slogan', 'redux-framework-demo' ),
+                'hint'     => array(
+                    'content' => 'Câu slogan.',
+                )
+            ),
+            array(
+                'id'       => 'header-content-3',
                 'type'     => 'textarea',
                 'title'    => __( 'Nội Dung Ngắn:  ', 'redux-framework-demo' ),
                 'desc'     => __( 'Nội dung ngắn được hiển thị ở trang chủ', 'redux-framework-demo' ),
@@ -315,7 +369,7 @@ function my_plugin_activation()
     'icon'   => 'el el-thumbs-up',
     'fields' => array(
         array(
-            'id'       => 'ten-khach-hang',
+            'id'       => 'ten-khach-hang-1',
             'type'     => 'text',
             'title'    => __( 'Tên Khách Hàng', 'redux-framework-demo' ),
             'desc'     => __( 'Tên Khách Hàng', 'redux-framework-demo' ),
@@ -324,7 +378,7 @@ function my_plugin_activation()
             )
         ),
         array(
-            'id'       => 'noi-dung',
+            'id'       => 'noi-dung-1',
             'type'     => 'textarea',
             'title'    => __( 'Nội Dung Phản Hồi: ', 'redux-framework-demo' ),
             'desc'     => __( 'Thông tin khách đã phản hồi.', 'redux-framework-demo' ),
@@ -333,7 +387,55 @@ function my_plugin_activation()
             )
         ),
         array(
-            'id'       => 'hinh-khach',
+            'id'       => 'hinh-khach-1',
+            'type'     => 'media',
+            'title'    => __( 'Link avatar khách hàng: ', 'redux-framework-demo' ),
+            'desc'     => __( 'link dẫn tới hình ảnh của khách hàng.', 'redux-framework-demo' )
+        ),
+        array(
+            'id'       => 'ten-khach-hang-2',
+            'type'     => 'text',
+            'title'    => __( 'Tên Khách Hàng', 'redux-framework-demo' ),
+            'desc'     => __( 'Tên Khách Hàng', 'redux-framework-demo' ),
+            'hint'     => array(
+                'content' => 'Tên khách hàng đã phản hồi.',
+            )
+        ),
+        array(
+            'id'       => 'noi-dung-2',
+            'type'     => 'textarea',
+            'title'    => __( 'Nội Dung Phản Hồi: ', 'redux-framework-demo' ),
+            'desc'     => __( 'Thông tin khách đã phản hồi.', 'redux-framework-demo' ),
+            'hint'     => array(
+                'content' => 'Thông tin khách đã phản hồi.',
+            )
+        ),
+        array(
+            'id'       => 'hinh-khach-2',
+            'type'     => 'media',
+            'title'    => __( 'Link avatar khách hàng: ', 'redux-framework-demo' ),
+            'desc'     => __( 'link dẫn tới hình ảnh của khách hàng.', 'redux-framework-demo' )
+        ),
+        array(
+            'id'       => 'ten-khach-hang-3',
+            'type'     => 'text',
+            'title'    => __( 'Tên Khách Hàng', 'redux-framework-demo' ),
+            'desc'     => __( 'Tên Khách Hàng', 'redux-framework-demo' ),
+            'hint'     => array(
+                'content' => 'Tên khách hàng đã phản hồi.',
+            )
+        ),
+        array(
+            'id'       => 'noi-dung-3',
+            'type'     => 'textarea',
+            'title'    => __( 'Nội Dung Phản Hồi: ', 'redux-framework-demo' ),
+            'desc'     => __( 'Thông tin khách đã phản hồi.', 'redux-framework-demo' ),
+            'hint'     => array(
+                'content' => 'Thông tin khách đã phản hồi.',
+            )
+        ),
+        array(
+            'id'       => 'hinh-khach-3',
             'type'     => 'media',
             'title'    => __( 'Link avatar khách hàng: ', 'redux-framework-demo' ),
             'desc'     => __( 'link dẫn tới hình ảnh của khách hàng.', 'redux-framework-demo' )
@@ -342,6 +444,138 @@ function my_plugin_activation()
     )
 ) );
 
+    //Dịch Vụ
+    Redux::setSection( $opt_name, array(
+    'title' => __( 'Dịch Vụ', 'redux-framework-demo' ),
+    'id'    => 'dich-vu',
+    'desc'  => __( 'Chi tiết các dịch vụ ở trang chủ.', 'redux-framework-demo' ),
+    'icon'  => 'el el-briefcase',
+    'fields' => array(
+        array(
+            'id'       => 'dv-title-1',
+            'type'     => 'text',
+            'title'    => __( 'Tên Dịch Vụ 1: ', 'redux-framework-demo' ),
+            'desc'     => __( 'Tên Dịch Vụ 1.', 'redux-framework-demo' )
+        ),
+        array(
+            'id'       => 'dv-content-1',
+            'type'     => 'text',
+            'title'    => __( 'Mô Tả Ngắn 1:  ', 'redux-framework-demo' ),
+            'desc'     => __( 'Mô Tả Ngắn Dịch Vụ', 'redux-framework-demo' )
+        ),
+        array(
+            'id'       => 'dv-image-1',
+            'type'     => 'media',
+            'title'    => __( 'Icon Dịch Vụ 1:  ', 'redux-framework-demo' ),
+            'desc'     => __( 'Hình đại diện dịch vụ hiện ra ở trang chủ', 'redux-framework-demo' )
+        ),
+        array(
+            'id'       => 'dv-title-2',
+            'type'     => 'text',
+            'title'    => __( 'Tên Dịch Vụ 2: ', 'redux-framework-demo' ),
+            'desc'     => __( 'Tên Dịch Vụ 2.', 'redux-framework-demo' )
+        ),
+        array(
+            'id'       => 'dv-content-2',
+            'type'     => 'text',
+            'title'    => __( 'Mô Tả Ngắn 2:  ', 'redux-framework-demo' ),
+            'desc'     => __( 'Mô Tả Ngắn Dịch Vụ', 'redux-framework-demo' )
+        ),
+        array(
+            'id'       => 'dv-image-2',
+            'type'     => 'media',
+            'title'    => __( 'Icon Dịch Vụ 2:  ', 'redux-framework-demo' ),
+            'desc'     => __( 'Hình đại diện dịch vụ hiện ra ở trang chủ', 'redux-framework-demo' )
+        ),
+        array(
+            'id'       => 'dv-title-3',
+            'type'     => 'text',
+            'title'    => __( 'Tên Dịch Vụ 3: ', 'redux-framework-demo' ),
+            'desc'     => __( 'Tên Dịch Vụ 3.', 'redux-framework-demo' )
+        ),
+        array(
+            'id'       => 'dv-content-3',
+            'type'     => 'text',
+            'title'    => __( 'Mô Tả Ngắn 3:  ', 'redux-framework-demo' ),
+            'desc'     => __( 'Mô Tả Ngắn Dịch Vụ', 'redux-framework-demo' )
+        ),
+        array(
+            'id'       => 'dv-image-3',
+            'type'     => 'media',
+            'title'    => __( 'Icon Dịch Vụ 3:  ', 'redux-framework-demo' ),
+            'desc'     => __( 'Hình đại diện dịch vụ hiện ra ở trang chủ', 'redux-framework-demo' )
+        ),
+        array(
+            'id'       => 'dv-title-4',
+            'type'     => 'text',
+            'title'    => __( 'Tên Dịch Vụ 4: ', 'redux-framework-demo' ),
+            'desc'     => __( 'Tên Dịch Vụ 4.', 'redux-framework-demo' )
+        ),
+        array(
+            'id'       => 'dv-content-4',
+            'type'     => 'text',
+            'title'    => __( 'Mô Tả Ngắn 4:  ', 'redux-framework-demo' ),
+            'desc'     => __( 'Mô Tả Ngắn Dịch Vụ', 'redux-framework-demo' )
+        ),
+        array(
+            'id'       => 'dv-image-4',
+            'type'     => 'media',
+            'title'    => __( 'Icon Dịch Vụ 4:  ', 'redux-framework-demo' ),
+            'desc'     => __( 'Hình đại diện dịch vụ hiện ra ở trang chủ', 'redux-framework-demo' )
+        ),
+        array(
+            'id'       => 'dv-title-5',
+            'type'     => 'text',
+            'title'    => __( 'Tên Dịch Vụ 5: ', 'redux-framework-demo' ),
+            'desc'     => __( 'Tên Dịch Vụ 5.', 'redux-framework-demo' )
+        ),
+        array(
+            'id'       => 'dv-content-5',
+            'type'     => 'text',
+            'title'    => __( 'Mô Tả Ngắn 5:  ', 'redux-framework-demo' ),
+            'desc'     => __( 'Mô Tả Ngắn Dịch Vụ', 'redux-framework-demo' )
+        ),
+        array(
+            'id'       => 'dv-image-5',
+            'type'     => 'media',
+            'title'    => __( 'Icon Dịch Vụ 5:  ', 'redux-framework-demo' ),
+            'desc'     => __( 'Hình đại diện dịch vụ hiện ra ở trang chủ', 'redux-framework-demo' )
+        ),
+        array(
+            'id'       => 'dv-title-6',
+            'type'     => 'text',
+            'title'    => __( 'Tên Dịch Vụ 6: ', 'redux-framework-demo' ),
+            'desc'     => __( 'Tên Dịch Vụ 6.', 'redux-framework-demo' )
+        ),
+        array(
+            'id'       => 'dv-content-6',
+            'type'     => 'text',
+            'title'    => __( 'Mô Tả Ngắn 6:  ', 'redux-framework-demo' ),
+            'desc'     => __( 'Mô Tả Ngắn Dịch Vụ', 'redux-framework-demo' )
+        ),
+        array(
+            'id'       => 'dv-image-6',
+            'type'     => 'media',
+            'title'    => __( 'Icon Dịch Vụ 6:  ', 'redux-framework-demo' ),
+            'desc'     => __( 'Hình đại diện dịch vụ hiện ra ở trang chủ', 'redux-framework-demo' )
+        )
+    )
+    ));
+
+    //Coyright
+    Redux::setSection( $opt_name, array(
+    'title' => __( 'CopyRight', 'redux-framework-demo' ),
+    'id'    => 'copy',
+    'desc'  => __( 'Thay đổi câu copy right dưới footer.', 'redux-framework-demo' ),
+    'icon'  => 'el el-lock-alt',
+    'fields' => array(
+        array(
+            'id'       => 'copy',
+            'type'     => 'text',
+            'title'    => __( 'Copyright ', 'redux-framework-demo' )
+        )
+    )
+) );
 
 /*
  * <--- END SECTIONS
