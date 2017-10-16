@@ -13,8 +13,7 @@
 	<!-- ================= Page description ================== -->
 	<meta name="description" content="Vật liệu xây dựng Anh VLXD">
 	<!-- ================= Meta ================== -->
-	<meta name="keywords" content="theme bikini, theme mùa hè, giao diện web đẹp, theme bizweb thời trang"/>		
-	<link rel="canonical" href="index.html"/>
+	<meta name="keywords" content="theme bikini, theme mùa hè, giao diện web đẹp, theme bizweb thời trang"/>
 	<meta name='revisit-after' content='1 days' />
 	<meta name="robots" content="noodp,index,follow" />
 	<!-- ================= Favicon ================== -->
@@ -35,8 +34,16 @@
 	<link href='<?php echo bloginfo("template_directory");  ?>/css/vlxd.css' rel='stylesheet' type='text/css' />	
 	<link href='<?php echo bloginfo("template_directory");  ?>/css/camera.css' rel='stylesheet' type='text/css' />		
 	<link href='<?php echo bloginfo("template_directory");  ?>/css/google-map.css' rel='stylesheet' type='text/css' />
+    <link href='<?php echo bloginfo("template_directory");  ?>/css/fl-glypho.css' rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+    <?php
+    global $hk_options;
+    echo "<pre>";
+    var_dump($hk_options);
+    echo "</pre>";
+
+    ?>
 	<?php wp_head(); ?>
 </head>
 
@@ -47,16 +54,16 @@
 			<div id="stuck_container" class="stuck_container">
 				<div class="container">
 					<div class="logo brand">
-						<a href="index.html" class="logo-wrapper ">
-							<img src="<?php echo bloginfo("template_directory");  ?>/images/logo.png" alt="logo ">
+						<a href="index.php" class="logo-wrapper ">
+                            <?php hk_header(); ?>
 						</a>
 					</div>
 					<nav class="nav">
 						<ul data-type="navbar" class="sf-menu">
-							<li class="active"><a href="index.html">Trang chủ</a></li>
-							<li><a href="#">Giới Thiệu</a></li>
-							<li><a href="#">Tin Tức</a></li>
-							<li ><a href="#">Liên hệ</a></li>
+							<li class="active"><a href="<?php echo bloginfo('url')?>">Trang chủ</a></li>
+							<li><a href="<?php echo bloginfo('url')?>/gioithieu">Giới Thiệu</a></li>
+							<li><a href="<?php bloginfo('url')?>/tintuc">Tin Tức</a></li>
+							<li ><a href="<?php bloginfo('url')?>/lienhe">Liên hệ</a></li>
 						</ul>
 					</nav>
 				</div>

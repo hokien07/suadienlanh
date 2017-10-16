@@ -1,12 +1,14 @@
 <?php get_header(); ?>
 
+<?php global $hk_options; ?>
+
 <section class="awe-section-1">
 	<section class="camera_container">
 		<div id="camera" class="camera_wrap">
-		<div data-src="<?php echo bloginfo("template_directory");  ?>/images/slider_1.jpg">
+		<div data-src="<?php echo $hk_options['slide-text-2']['url'] ?>">
 			<div class="camera_caption fadeIn">
 				<div class="container">
-					<p><a href="#"><strong>CUNG CẤP</strong>vật liệu tốt nhất</a></p>
+					<p><a href="#"><?php echo $hk_options['slide-text-1'] ?></p>
 				</div>
 			</div>
 		</div>
@@ -25,6 +27,8 @@
 		<div class="container">
 			<div class="banner_wr">
 				<ul class="banner">
+
+
 					<li>
 						<h3>Welcome</h3>
 						<h6>Chào mừng quý khách ghé thăm website vật liệu xây dựng</h6>

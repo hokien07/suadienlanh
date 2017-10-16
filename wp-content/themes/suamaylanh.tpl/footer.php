@@ -160,8 +160,26 @@
 	</div>
 </section>
 </footer>
-
+</main>
+</div>
 <?php wp_footer(); ?>
+
+<!-- Product detail JS,CSS -->
+<script src='<?php echo bloginfo("template_directory");  ?>/js/jquery.min.js' type='text/javascript'></script>
+<script src='<?php echo bloginfo("template_directory");  ?>/js/jquery-migrate.js' type='text/javascript'></script>
+<script src='<?php echo bloginfo("template_directory");  ?>/js/jquery.easing.js' type='text/javascript'></script>
+<!-- Plugin JS -->
+
+<script src="<?php echo bloginfo("template_directory");  ?>/js/bootstrap.min.js"></script>
+<!-- Main JS -->
+<script src='<?php echo bloginfo("template_directory");  ?>/js/main.js' type='text/javascript'></script>
+
+
+<script src='<?php echo bloginfo("template_directory");  ?>/js/camera.js' type='text/javascript'></script>
+<script src='<?php echo bloginfo("template_directory");  ?>/js/jquery.rd-navbar.js' type='text/javascript'></script>
+<script src='https://maps.google.com/maps/api/js' type='text/javascript'></script>
+<script src='<?php echo bloginfo("template_directory");  ?>/js/jquery.rd-google-map.js' type='text/javascript'></script>
+<script src='<?php echo bloginfo("template_directory");  ?>/js/script.js' type='text/javascript'></script>
 
 <!-- Don't forget analytics -->
 

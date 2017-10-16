@@ -1,5 +1,8 @@
 <?php
-	
+require_once dirname(__FILE__) . '/class-tgm-plugin-activation.php';
+require_once dirname(__FILE__) . '/core/option.php';
+require_once dirname(__FILE__) . '/core/template_function.php';
+
 	// Add RSS links to <head> section
 	automatic_feed_links();
 	
