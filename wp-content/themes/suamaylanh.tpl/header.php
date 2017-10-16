@@ -35,6 +35,7 @@
 	<link href='<?php echo bloginfo("template_directory");  ?>/css/camera.css' rel='stylesheet' type='text/css' />		
 	<link href='<?php echo bloginfo("template_directory");  ?>/css/google-map.css' rel='stylesheet' type='text/css' />
     <link href='<?php echo bloginfo("template_directory");  ?>/css/fl-glypho.css' rel='stylesheet' type='text/css' />
+    <link href='<?php echo bloginfo("template_directory");  ?>/css/mobile_call.css' rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 	<?php wp_head(); ?>
@@ -52,7 +53,7 @@
 						</a>
 					</div>
 					<nav class="nav">
-                        <?php hk_top_menu(); ?>
+                        <?php hk_top_menu() ?>
 					</nav>
 				</div>
 			</div>

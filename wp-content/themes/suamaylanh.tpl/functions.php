@@ -5,21 +5,6 @@ require_once dirname(__FILE__) . '/core/template_function.php';
 
 	// Add RSS links to <head> section
 	automatic_feed_links();
-	
-	// Load jQuery
-	if ( !is_admin() ) {
-	   wp_deregister_script('jquery');
-	   wp_register_script('jquery', ("http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"), false);
-	   wp_enqueue_script('jquery');
-	}
-	
-	// Clean up the <head>
-	function removeHeadLinks() {
-    	remove_action('wp_head', 'rsd_link');
-    	remove_action('wp_head', 'wlwmanifest_link');
-    }
-    add_action('init', 'removeHeadLinks');
-    remove_action('wp_head', 'wp_generator');
     
 	// Declare sidebar widget zone
     if (function_exists('register_sidebar')) {
@@ -33,5 +18,9 @@ require_once dirname(__FILE__) . '/core/template_function.php';
     		'after_title'   => '</h2>'
     	));
     }
+
+    //Add theme support.
+    add_theme_support( 'post-thumbnails' );
+
 
 ?>

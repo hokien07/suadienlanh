@@ -9,6 +9,11 @@ function my_plugin_activation()
             'slug' => 'redux-framework', //Tên slug của plugin trên URL
             'required' => false,
         ),
+        array(
+            'name' => 'Contact Form 7',
+            'slug' => 'contact-form-7', //Tên slug của plugin trên URL
+            'required' => false,
+        )
 
     ); // end $plugins
 
@@ -573,6 +578,21 @@ function my_plugin_activation()
             'id'       => 'copy',
             'type'     => 'text',
             'title'    => __( 'Copyright ', 'redux-framework-demo' )
+        )
+    )
+) );
+
+    //map
+    Redux::setSection( $opt_name, array(
+    'title' => __( 'Google Map', 'redux-framework-demo' ),
+    'id'    => 'map',
+    'desc'  => __( 'Link địa chỉ trên google map.', 'redux-framework-demo' ),
+    'icon'  => 'el el-map-marker',
+    'fields' => array(
+        array(
+            'id'       => 'map-link',
+            'type'     => 'text',
+            'title'    => __( 'Link google Map ', 'redux-framework-demo' )
         )
     )
 ) );
