@@ -247,20 +247,25 @@ function my_plugin_activation()
                 )
             ),
             array(
-                'id'       => 'slide-text-2',
+                'id'       => 'slide-image-1',
                 'type'     => 'media',
                 'title'    => __( 'Links: ', 'redux-framework-demo' ),
-                'desc'     => __( 'Link hình ảnh slide.', 'redux-framework-demo' ),
-                'labels'    => array(
-                    'upload_file'       => __('Chọn File)', 'redux-framework-demo'),
-                    'remove_image'      => __('Remove Image', 'redux-framework-demo'),
-                    'remove_file'       => __('Remove', 'redux-framework-demo'),
-                    'file'              => __('File: ', 'redux-framework-demo'),
-                    'title'             => __('Multi Media Selector', 'redux-framework-demo'),
-                    'button'            => __('Add or Upload File','redux-framework-demo')
-                ),
-                'library_filter'  => array('gif','jpg','png'),
-                'max_file_upload' => 5
+                'desc'     => __( 'Link hình ảnh slide.', 'redux-framework-demo' )
+            ),
+            array(
+                'id'       => 'slide-text-2',
+                'type'     => 'text',
+                'title'    => __( 'Tiêu Đề: ', 'redux-framework-demo' ),
+                'desc'     => __( 'Tiêu đề slide 2.', 'redux-framework-demo' ),
+                'hint'     => array(
+                    'content' => 'Nhập tiêu đề thể hiện khi slide hình ảnh chạy.',
+                )
+            ),
+            array(
+                'id'       => 'slide-image-2',
+                'type'     => 'media',
+                'title'    => __( 'Links: ', 'redux-framework-demo' ),
+                'desc'     => __( 'Link hình ảnh slide.', 'redux-framework-demo' )
             )
         )
     ) );

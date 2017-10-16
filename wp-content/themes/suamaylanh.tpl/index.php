@@ -5,17 +5,17 @@
 <section class="awe-section-1">
 	<section class="camera_container">
 		<div id="camera" class="camera_wrap">
-		<div data-src="<?php echo $hk_options['slide-text-2']['url'] ?>">
+		<div data-src="<?php echo $hk_options['slide-image-1']['url'] ?>">
 			<div class="camera_caption fadeIn">
 				<div class="container">
-					<p><a href="#"><?php echo $hk_options['slide-text-1'] ?></p>
+                    <p><a href="#"><?php echo $hk_options['slide-text-1'] ?></a></p>
 				</div>
 			</div>
 		</div>
-		<div data-src="<?php echo bloginfo("template_directory");  ?>/images/slider_2.jpg">
+		<div data-src="<?php echo $hk_options['slide-image-2']['url'] ?>">
 			<div class="camera_caption fadeIn">
 				<div class="container">
-					<p><a href="#"><strong>Chất lượng</strong>thay vạn lời nói</a></p>
+					<p><a href="#"><?php echo $hk_options['slide-text-2'] ?></a></p>
 				</div>
 			</div>
 		</div>
