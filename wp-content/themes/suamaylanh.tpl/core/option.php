@@ -592,10 +592,73 @@ function my_plugin_activation()
         array(
             'id'       => 'map-link',
             'type'     => 'text',
-            'title'    => __( 'Link google Map ', 'redux-framework-demo' )
+            'title'    => __( 'Link google Map ', 'redux-framework-demo' ),
+            'desc'      => __('Mã nhúng với chiều cao: 400px và rộng: 1300px', 'redux-framework-demo')
         )
     )
 ) );
+
+    //Social
+    Redux::setSection( $opt_name, array(
+    'title' => __( 'Scoial', 'redux-framework-demo' ),
+    'id'    => 'social',
+    'desc'  => __( 'Nhập link các trang mạng xã hội hiện có.', 'redux-framework-demo' ),
+    'icon'  => 'el el-opensource',
+    'fields' => array(
+        array(
+            'id'       => 'facebook',
+            'type'     => 'text',
+            'title'    => __( 'Link Facebook: ', 'redux-framework-demo' )
+        ),
+        array(
+            'id'       => 'twitter',
+            'type'     => 'text',
+            'title'    => __( 'Link Twitter:  ', 'redux-framework-demo' )
+        ),
+        array(
+            'id'       => 'printerest',
+            'type'     => 'text',
+            'title'    => __( 'Link Printerest:  ', 'redux-framework-demo' )
+        ),
+        array(
+            'id'       => 'google-plus',
+            'type'     => 'text',
+            'title'    => __( 'Link Google-plus: ', 'redux-framework-demo' )
+        )
+    )
+));
+
+    //Footer
+    Redux::setSection( $opt_name, array(
+    'title' => __( 'Footer Text', 'redux-framework-demo' ),
+    'id'    => 'footer-text',
+    'desc'  => __( 'Thay đổi các thông tin phần footer.', 'redux-framework-demo' ),
+    'icon'  => 'el el-folder-close',
+    'fields' => array(
+        array(
+            'id'       => 'footer-title-1',
+            'type'     => 'text',
+            'title'    => __( 'Giới Thiệu: ', 'redux-framework-demo' )
+        ),
+        array(
+            'id'       => 'footer-content-1',
+            'type'     => 'textarea',
+            'title'    => __( 'Nội Dung', 'redux-framework-demo' ),
+            'desc'     => __( 'Mô tả ngắn phần giới thiệu.', 'redux-framework-demo' )
+        ),
+        array(
+            'id'       => 'footer-title-2',
+            'type'     => 'text',
+            'title'    => __( 'Fan Page', 'redux-framework-demo' )
+        ),
+        array(
+            'id'       => 'footer-content-2',
+            'type'     => 'textarea',
+            'title'    => __( 'Link Fan Page: ', 'redux-framework-demo' )
+        )
+    )
+) );
+
 
 /*
  * <--- END SECTIONS

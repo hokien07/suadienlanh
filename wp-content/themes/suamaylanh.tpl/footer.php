@@ -8,13 +8,13 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-6 col-md-4">
-				<h5>Giới Thiệu</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, esse ullam. Aspernatur ducimus error exercitationem inventore iusto, quam suscipit voluptate.</p>
+				<h5><?php echo $hk_options['footer-title-1'] ?></h5>
+                <p><?php echo $hk_options['footer-content-1'] ?></p>
 			</div>
 
             <div class="col-xs-12 col-sm-6 col-md-4">
-                <h5>Facebook</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, esse ullam. Aspernatur ducimus error exercitationem inventore iusto, quam suscipit voluptate.</p>
+                <h5><?php echo $hk_options['footer-title-2'] ?></h5>
+                <div><?php echo $hk_options['footer-content-2'] ?></div>
             </div>
 
             <div class="col-xs-12 col-sm-6 col-md-4">

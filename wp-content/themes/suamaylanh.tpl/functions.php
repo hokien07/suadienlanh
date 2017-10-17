@@ -50,4 +50,76 @@ require_once dirname(__FILE__) . '/core/template_function.php';
         }
     }
 
+    //get tags
+    function hk_get_tags() {
+        $posttags = get_the_tags();
+        if ($posttags) {
+            foreach($posttags as $tag) {?>
+                <span class="tag-item"><a href="<?php the_permalink(); ?>"><?php echo  $tag->name ?></a></span>
+            <?php }
+        }
+    }
+
+    //nav sidebar
+    function hk_nav_sidebar() {?>
+        <nav class="nav-category  navbar-toggleable-md" >
+            <ul class="nav navbar-pills">
+                <li class="nav-item">
+                    <i class="fa fa-caret-right"></i>
+                    <a class="nav-link" href="<?php bloginfo('url') ?>">Trang chủ</a></li>
+                <li class="nav-item">
+                    <i class="fa fa-caret-right"></i>
+                    <a href="<?php bloginfo('url') ?>/gioi-thieu" class="nav-link">Giới thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <i class="fa fa-caret-right"></i>
+                    <a class="nav-link" href="<?php bloginfo('url') ?>/tin-tuc">Tin tức</a>
+                </li>
+                <li class="nav-item">
+                    <i class="fa fa-caret-right"></i>
+                    <a href="<?php bloginfo('url') ?>/lien-he" class="nav-link">Liên hệ</a>
+                </li>
+            </ul>
+        </nav>
+    <?php  }
+
+    //bai viet lien quan category
+    function hk_bai_viet_lien_quan() {
+        global $post;
+        $categories = get_the_category($post->ID);
+        if ($categories)
+        {
+            $category_ids = array();
+            foreach($categories as $individual_category) $category_ids[] = $individual_category->term_id;
+
+            $args=array(
+                'category__in' => $category_ids,
+                'post__not_in' => array($post->ID),
+                'showposts'=>5, // Số bài viết bạn muốn hiển thị.
+                'caller_get_posts'=>1
+            );
+            $my_query = new wp_query($args);
+            if( $my_query->have_posts() ) {
+                while ($my_query->have_posts())
+                {
+                    $my_query->the_post();
+                    ?>
+                    <div class="blog-list blog-image-list">
+                        <div class="loop-blog">
+                            <div class="thumb-left">
+                                <a href="<?php the_permalink(); ?>">
+                                    <?php echo get_the_post_thumbnail( $post->ID, 'full', array( 'class' =>'img-reponsive') ); ?>
+                                </a>
+                            </div>
+                            <div class="name-right">
+                                <h3><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <?php
+                }
+            }
+        }
+    }
+
 ?>
