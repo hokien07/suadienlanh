@@ -31,37 +31,10 @@
 	</div>
 </section>
 </footer>
-
-<a href="tel:0972355922" class="fancybox">
-    <div class="coccoc-alo-phone coccoc-alo-green coccoc-alo-show" id="coccoc-alo-phoneIcon" style="right:5%; top: 10%;">
-        <div class="coccoc-alo-ph-circle"></div>
-        <div class="coccoc-alo-ph-circle-fill"></div>
-        <div class="coccoc-alo-ph-img-circle"></div>
-    </div>
-</a>
+<script src="<?php bloginfo('template_directory') ?>/js/jquery.min.js"></script>
+<script src="<?php bloginfo('template_directory') ?>/js/jquery-migrate.js"></script>
+<?php wp_footer(); ?>
 </main>
 </div>
-<?php wp_footer(); ?>
-
-<!-- Product detail JS,CSS -->
-<script src='<?php echo bloginfo("template_directory");  ?>/js/jquery.min.js' type='text/javascript'></script>
-<script src='<?php echo bloginfo("template_directory");  ?>/js/jquery-migrate.js' type='text/javascript'></script>
-<script src='<?php echo bloginfo("template_directory");  ?>/js/jquery.easing.js' type='text/javascript'></script>
-<!-- Plugin JS -->
-
-<script src="<?php echo bloginfo("template_directory");  ?>/js/bootstrap.min.js"></script>
-<!-- Main JS -->
-<script src='<?php echo bloginfo("template_directory");  ?>/js/main.js' type='text/javascript'></script>
-
-
-<script src='<?php echo bloginfo("template_directory");  ?>/js/camera.js' type='text/javascript'></script>
-<script src='<?php echo bloginfo("template_directory");  ?>/js/jquery.rd-navbar.js' type='text/javascript'></script>
-<script src='https://maps.google.com/maps/api/js' type='text/javascript'></script>
-<script src='<?php echo bloginfo("template_directory");  ?>/js/jquery.rd-google-map.js' type='text/javascript'></script>
-<script src='<?php echo bloginfo("template_directory");  ?>/js/script.js' type='text/javascript'></script>
-
-<!-- Don't forget analytics -->
-
 </body>
-
 </html>

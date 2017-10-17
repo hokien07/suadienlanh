@@ -19,11 +19,11 @@ if(!function_exists('hk_header')) {
 //Template Show Menu Custom
 if(!function_exists('hk_top_menu')){
     function hk_top_menu() {?>
-        <ul data-type="navbar" class="sf-menu">
-            <li class="active"><a href="<?php echo bloginfo('url')?>">Trang chủ</a></li>
+        <ul data-type="navbar" class="sf-menu hk-custom">
+            <li><a href="<?php echo bloginfo('url')?>">Trang chủ</a></li>
             <li><a href="<?php echo bloginfo('url')?>/gioi-thieu">Giới Thiệu</a></li>
             <li><a href="<?php bloginfo('url')?>/tin-tuc">Tin Tức</a></li>
-            <li ><a href="<?php bloginfo('url')?>/lien-he">Liên hệ</a></li>
+            <li><a href="<?php bloginfo('url')?>/lien-he">Liên hệ</a></li>
         </ul>
    <?php  }
 }

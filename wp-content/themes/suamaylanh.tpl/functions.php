@@ -122,4 +122,19 @@ require_once dirname(__FILE__) . '/core/template_function.php';
         }
     }
 
+    //đăng ký css và javacript
+    function wpdocs_theme_name_scripts() {
+        wp_enqueue_script( 'jquery.easing', get_template_directory_uri() . '/js/jquery.easing.js', array(), '1.0.0', true );
+        wp_enqueue_script( 'bootstrap.min', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '1.0.0', true );
+        wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.js', array(), '1.0.0', true );
+        wp_enqueue_script( 'camera', get_template_directory_uri() . '/js/camera.js', array(), '1.0.0', true );
+        wp_enqueue_script( 'jquery.rd-navbar', get_template_directory_uri() . '/js/jquery.rd-navbar.js', array(), '1.0.0', true );
+        wp_enqueue_script( 'script', get_template_directory_uri() . '/js/script.js', array(), '1.0.0', true );
+        wp_enqueue_script( 'header', get_template_directory_uri() . '/js/header.js', array(), '1.0.0', true );
+
+        if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+            wp_enqueue_script( 'comment-reply' );
+        }
+    }
+    add_action( 'wp_enqueue_scripts', 'wpdocs_theme_name_scripts' );
 ?>
