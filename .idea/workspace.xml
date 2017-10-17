@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feaf975e-6251-4e32-b48b-7e6d3afa40a0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive.html" afterPath="$PROJECT_DIR$/archive.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single.html" afterPath="$PROJECT_DIR$/single.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/mobile_call.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/css/mobile_call.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/hk-custom-post-type/css/plugin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/hk-custom-post-type/hk_custom_post_type.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/hk-custom-post-type/images/hk_custom_post_type.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/hk-custom-post-type/includes/backend.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/hk-custom-post-type/includes/frontend.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/hk-custom-post-type/metaboxes/data.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/hk-custom-post-type/metaboxes/main.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/hk-custom-post-type/posts/product.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/archive.html" afterPath="$PROJECT_DIR$/html/archive.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/single.html" afterPath="$PROJECT_DIR$/html/single.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/archive.php" afterPath="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/archive.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/comments.php" afterPath="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/core/option.php" afterPath="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/core/option.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/sidebar.php" afterPath="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/sidebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/single.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,142 +35,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="452" column="15" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="453" selection-end-column="0" />
+            <state relative-caret-position="388">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="40" selection-end-column="4" />
               <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#header#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#div#0;n#div#0;n#section#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#section#0;n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#p#0;n#blockquote#0;n#div#0;n#div#0;n#section#0;n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#p#0;n#blockquote#1;n#div#0;n#div#0;n#section#0;n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#p#0;n#blockquote#2;n#div#0;n#div#0;n#section#0;n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#10232#10236#0" expanded="true" />
-                <element signature="n#section#6;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#0;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#section#0;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#2;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#0;n#footer#0;n#!!top" expanded="false" />
+                <element signature="n#section#2;n#footer#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#a#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/single.html">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="33" column="7" lean-forward="false" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-              <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#header#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#p#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#2;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#p#1;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#2;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#form#0;n#div#2;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#0;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#1;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#2;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#3;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#4;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#0;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#section#0;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#2;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="3469" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="archive.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/archive.html">
+      <file leaf-file-name="mobile_call.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/css/mobile_call.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="367" column="7" lean-forward="true" selection-start-line="367" selection-start-column="7" selection-end-line="367" selection-end-column="7" />
-              <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#header#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#article#0;n#section#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#article#0;n#section#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a#0;n#div#0;n#div#0;n#article#0;n#section#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#article#0;n#section#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#article#0;n#section#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#p#0;n#div#1;n#div#0;n#article#0;n#section#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#0;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#1;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#2;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#3;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#4;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#0;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#section#0;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#2;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="181">
+              <caret line="3448" column="17" lean-forward="true" selection-start-line="3448" selection-start-column="17" selection-end-line="3448" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="37" column="78" lean-forward="false" selection-start-line="37" selection-start-column="78" selection-end-line="37" selection-end-column="78" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>KENSHIN</find>
+      <find>thachpham</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>HK</replace>
+      <replace>hokien</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -162,6 +108,52 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/single.html" />
         <option value="$PROJECT_DIR$/archive.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/core/hk_widget.php" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/new-config.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/demo.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hk_plugin_demo/css/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hk_plugin_demo/uninstall.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hk_plugin_demo/hk_plugin_demo.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/core/inc/frontend.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/core/demohook.php" />
+        <option value="$PROJECT_DIR$/wp-includes/widgets/class-kh-widgt-header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/core/hk_wdiget/hk_widget.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/core/hk_wdiget/class-kh-widgt-header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/core/hk_widget/hk_widget.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hhwidgetheader/widgets/header_widget.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hhwidgetheader/includes/frontend.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hhwidgetheader/hk_widget.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hhwidgetheader/includes/backend.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hokien-setting/includes/frontend.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hokien-setting/views/setting-page.php,.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hokien-setting/hk_setting.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hokien-setting/views/setting-page.php" />
+        <option value="$PROJECT_DIR$/html/index.html" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hokien-setting/includes/backend.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/test.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/core/template_function.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hk-custom-post-type/css/plugin.css" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hk-custom-post-type/metaboxes/data.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hk-custom-post-type/includes/frontend.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hk-custom-post-type/hk_custom_post_type.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hk-custom-post-type/includes/backend.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hk-custom-post-type/metaboxes/main.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hk-custom-post-type/posts/product.php" />
+        <option value="$PROJECT_DIR$/html/single.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/sidebar.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/single.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/comments.php" />
+        <option value="$PROJECT_DIR$/html/archive.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/archive.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/core/option.php" />
+        <option value="$PROJECT_DIR$/html/css/mobile_call.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/css/mobile_call.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/footer.php" />
       </list>
     </option>
   </component>
@@ -172,11 +164,14 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="788" />
     <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -193,8 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,14 +195,64 @@
               <item name="suamaylanh" type="b2602c69:ProjectViewProjectNode" />
               <item name="suamaylanh" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="suamaylanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="suamaylanh" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="suamaylanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="suamaylanh" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="suamaylanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="suamaylanh" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="contact-form-7" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="suamaylanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="suamaylanh" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="suamaylanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="suamaylanh" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="suamaylanh.tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="suamaylanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="suamaylanh" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="suamaylanh.tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="suamaylanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="suamaylanh" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="suamaylanh.tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -237,19 +280,22 @@
       <workItem from="1508082443797" duration="2666000" />
       <workItem from="1508085448300" duration="1113000" />
       <workItem from="1508086928240" duration="55000" />
+      <workItem from="1508120230882" duration="50834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7729000" />
+    <option name="totallyTimeSpent" value="58563000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="20" width="788" height="728" extended-state="0" />
+    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34455958" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19861963" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -261,7 +307,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -272,403 +317,454 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="55" column="29" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="55" selection-end-column="29" />
+        <state relative-caret-position="374">
+          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#header#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#div#0;n#section#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#section#0;n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#p#0;n#blockquote#0;n#div#0;n#div#0;n#section#0;n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#p#0;n#blockquote#1;n#div#0;n#div#0;n#section#0;n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#p#0;n#blockquote#2;n#div#0;n#div#0;n#section#0;n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#10232#10236#0" expanded="true" />
-            <element signature="n#section#6;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#section#0;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#6#463#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/single.html">
+    <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="56" column="25" lean-forward="false" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#header#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#p#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#p#1;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#2;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#2;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#2;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#3;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#4;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#section#0;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/archive.html">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/demo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="55" column="25" lean-forward="false" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#header#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#article#0;n#section#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#article#0;n#section#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#div#0;n#article#0;n#section#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#article#0;n#section#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#article#0;n#section#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#p#0;n#div#1;n#div#0;n#article#0;n#section#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#2;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#3;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#4;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#section#0;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hk_plugin_demo/uninstall.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hk_plugin_demo/hk_plugin_demo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="75" column="47" lean-forward="false" selection-start-line="75" selection-start-column="47" selection-end-line="75" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hk_plugin_demo/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#header#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#div#0;n#section#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#section#0;n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#p#0;n#blockquote#0;n#div#0;n#div#0;n#section#0;n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#p#0;n#blockquote#1;n#div#0;n#div#0;n#section#0;n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#p#0;n#blockquote#2;n#div#0;n#div#0;n#section#0;n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#10232#10236#0" expanded="true" />
-            <element signature="n#section#6;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#section#0;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/single.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="282" column="46" lean-forward="false" selection-start-line="282" selection-start-column="46" selection-end-line="282" selection-end-column="46" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#header#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#p#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#p#1;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#2;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#2;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#2;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#3;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#4;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#section#0;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#header#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#div#0;n#section#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#section#0;n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#p#0;n#blockquote#0;n#div#0;n#div#0;n#section#0;n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#p#0;n#blockquote#1;n#div#0;n#div#0;n#section#0;n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#p#0;n#blockquote#2;n#div#0;n#div#0;n#section#0;n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#10232#10236#0" expanded="true" />
-            <element signature="n#section#6;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#section#0;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="410" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16864">
-          <caret line="46" column="16" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archive.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="367" column="7" lean-forward="true" selection-start-line="367" selection-start-column="7" selection-end-line="367" selection-end-column="7" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#header#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#article#0;n#section#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#article#0;n#section#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#div#0;n#article#0;n#section#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#article#0;n#section#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#article#0;n#section#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#p#0;n#div#1;n#div#0;n#article#0;n#section#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#2;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#3;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#4;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#section#0;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/single.html">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/core/inc/frontend.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="33" column="7" lean-forward="false" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/widgets/class-kh-widgt-header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/widgets/class-wp-nav-menu-widget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1275">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/core/demohook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/core/hk_widget/class-kh-widgt-header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="67" lean-forward="false" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/core/hk_widget/hk_widget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hhwidgetheader/widgets/header_widget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="47" lean-forward="true" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hhwidgetheader/includes/frontend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hhwidgetheader/hk_widget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hhwidgetheader/includes/backend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="454" column="4" lean-forward="false" selection-start-line="454" selection-start-column="4" selection-end-line="454" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hokien-setting/includes/frontend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hokien-setting/hk_setting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="55" lean-forward="false" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hokien-setting/includes/backend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="43" column="101" lean-forward="true" selection-start-line="43" selection-start-column="101" selection-end-line="43" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hokien-setting/views/setting-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/redux-framework/sample/barebones-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="302" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hk-custom-post-type/css/plugin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hk-custom-post-type/includes/backend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hk-custom-post-type/includes/frontend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hk-custom-post-type/metaboxes/data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-737">
+          <caret line="27" column="69" lean-forward="false" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/utility.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hk-custom-post-type/posts/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="59" lean-forward="false" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hk-custom-post-type/metaboxes/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hk-custom-post-type/hk_custom_post_type.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/tools.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/listings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1122">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/core/template_function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="260" column="22" lean-forward="true" selection-start-line="57" selection-start-column="16" selection-end-line="260" selection-end-column="22" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#header#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#p#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#p#1;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#2;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#2;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#2;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#3;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#4;n#ul#0;n#nav#0;n#div#1;n#aside#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#aside#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#section#0;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="452" column="15" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="453" selection-end-column="0" />
+        <state relative-caret-position="1088">
+          <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-comments-post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-load.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="106" column="47" lean-forward="true" selection-start-line="106" selection-start-column="47" selection-end-line="106" selection-end-column="47" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1508184710045" expanded="true" signature="844:885" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/archive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="76" selection-end-column="26" />
+          <folding>
             <element signature="n#header#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#div#0;n#section#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#section#0;n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#p#0;n#blockquote#0;n#div#0;n#div#0;n#section#0;n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#p#0;n#blockquote#1;n#div#0;n#div#0;n#section#0;n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#p#0;n#blockquote#2;n#div#0;n#div#0;n#section#0;n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#10232#10236#0" expanded="true" />
-            <element signature="n#section#6;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#section#0;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#section#1;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="96" column="128" lean-forward="false" selection-start-line="96" selection-start-column="128" selection-end-line="96" selection-end-column="128" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="71" lean-forward="false" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+          <folding>
+            <marker date="1508186940629" expanded="true" signature="648:689" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/wp-contact-form-7.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/core/option.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding>
+            <element signature="e#96#4354#0#PHP" expanded="false" />
+            <element signature="e#4985#10935#0#PHP" expanded="false" />
+            <element signature="e#10985#11533#0#PHP" expanded="false" />
+            <element signature="e#11855#12786#0#PHP" expanded="false" />
+            <element signature="e#12849#14482#0#PHP" expanded="false" />
+            <element signature="e#14539#18463#0#PHP" expanded="false" />
+            <element signature="e#18528#21858#0#PHP" expanded="false" />
+            <element signature="e#21911#26829#0#PHP" expanded="false" />
+            <element signature="e#26882#27280#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/mobile_call.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2530">
+          <caret line="937" column="84" lean-forward="false" selection-start-line="937" selection-start-column="84" selection-end-line="937" selection-end-column="84" />
+          <folding>
+            <element signature="e#7319#8620#1" expanded="true" />
+            <element signature="e#22373#24262#2" expanded="true" />
+            <element signature="e#24631#26484#2" expanded="true" />
+            <element signature="e#26751#26952#2" expanded="true" />
+            <element signature="e#27254#27455#2" expanded="true" />
+            <element signature="e#27579#27736#2" expanded="true" />
+            <element signature="e#31696#31886#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="3469" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/css/mobile_call.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="3448" column="17" lean-forward="true" selection-start-line="3448" selection-start-column="17" selection-end-line="3448" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="37" column="78" lean-forward="false" selection-start-line="37" selection-start-column="78" selection-end-line="37" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/suamaylanh.tpl/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="40" selection-end-column="4" />
+          <folding>
+            <element signature="n#section#0;n#footer#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#footer#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

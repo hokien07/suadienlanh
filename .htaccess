@@ -2,18 +2,11 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /suamaylanhphp/
+RewriteBase /suamaylanh/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /suamaylanhphp/index.php [L]
+RewriteRule . /suamaylanh/index.php [L]
 </IfModule>
-
-#chặn hacker xâm nhập vào website.
-<files ~ “^.*\.([Hh][Tt][Aa])”>
-order allow,deny
-deny from all
-satisfy all
-</files>
 
 # END WordPress

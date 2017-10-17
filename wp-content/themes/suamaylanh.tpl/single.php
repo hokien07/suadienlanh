@@ -1,30 +1,29 @@
 <?php global $hk_options; ?>
 <?php get_header(); ?>
-
+<section class="bread-crumb">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="breadcrumb-title"><b><?php the_title(); ?></b></div>
+                <ul class="breadcrumb" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <li class="home">
+                        <a itemprop="url" href="<?php echo bloginfo('url') ?>"><span
+                                    itemprop="title">Trang chủ</span></a>
+                        <span><i class="fa fa-angle-right"></i></span>
+                    </li>
+                    <li>
+                        <a itemprop="url" href="<?php the_permalink()  ?>"><span itemprop="title"><?php the_category(',') ?></span></a>
+                        <span><i class="fa fa-angle-right"></i></span>
+                    </li>
+                    <li><strong itemprop="title"><?php the_title(); ?></strong></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
     <div <?php post_class() ?> id="post-<?php the_ID(); ?>">
-    <section class="bread-crumb">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="breadcrumb-title"><b><?php the_title(); ?></b></div>
-                    <ul class="breadcrumb" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-                        <li class="home">
-                            <a itemprop="url" href="<?php echo bloginfo('url') ?>"><span
-                                        itemprop="title">Trang chủ</span></a>
-                            <span><i class="fa fa-angle-right"></i></span>
-                        </li>
-                        <li>
-                            <a itemprop="url" href="<?php the_permalink()  ?>"><span itemprop="title"><?php the_category(',') ?></span></a>
-                            <span><i class="fa fa-angle-right"></i></span>
-                        </li>
-                        <li><strong itemprop="title"><?php the_title(); ?></strong></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <div class="container article-wraper">
         <div class="row">

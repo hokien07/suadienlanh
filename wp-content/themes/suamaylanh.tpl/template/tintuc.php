@@ -1,9 +1,13 @@
-<?php get_header(); ?>
+<?php
+/*
+ Template Name: Trang Tin Tức
+ */
+get_header(); ?>
     <section class="bread-crumb">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="breadcrumb-title"><b><?php the_category(',') ?></b></div>
+                    <div class="breadcrumb-title"><b><?php the_title() ?></b></div>
                     <ul class="breadcrumb" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
                         <li class="home">
                             <a itemprop="url" href="<?php bloginfo('url') ?>"><span itemprop="title">Trang chủ</span></a>
@@ -11,8 +15,7 @@
                         </li>
                         <li>
                             <a itemprop="url" href="<?php the_permalink() ?>"><span
-                                        itemprop="title"><?php the_category(',') ?></span></a>
-                            <span><i class="fa fa-angle-right"></i></span>
+                                    itemprop="title"><?php the_title() ?></span></a>
                         </li>
                     </ul>
                 </div>
@@ -26,10 +29,9 @@
                     <h1 class="title-head hidden"><?php the_category(',') ?></h1>
                 </div>
                 <section class="list-blogs blog-main">
-                    <?php if (have_posts()) : ?>
-                    <?php while (have_posts()) :
-                    the_post(); ?>
-                    <div <?php post_class() ?>>
+                    <?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=10&post_type=post&cat=2'); ?>
+                    <?php global $wp_query; $wp_query->in_the_loop = true; ?>
+                    <?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
                         <article class="blog-item">
                             <div class="row">
                                 <div class="blog-item-thumbnail col-49">
@@ -39,7 +41,7 @@
                                 </div>
                                 <div class="blog-item-info col-59">
                                     <h3 class="blog-item-name"><a
-                                                href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+                                            href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
                                     <div class="post-time">
                                         Viết bởi <span><?php the_author() ?></span>, <?php echo the_date() ?>
                                     </div>
@@ -48,20 +50,12 @@
                                 </div>
                             </div>
                         </article>
-
-                        <?php endwhile; ?>
-                        <?php else : ?>
-
-                            <h2>Không tồn tại bài viết</h2>
-
-                        <?php endif; ?>
+                        <?php endwhile; wp_reset_postdata(); ?>
                 </section>
-
                 <?php
-                //phan trang
+                    //phan trang
                     hk_phan_trang();
                 ?>
-
             </section>
             <?php get_sidebar(); ?>
         </div>

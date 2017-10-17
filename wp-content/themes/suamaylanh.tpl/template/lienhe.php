@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php
+/*
+ Template Name: Trang Liên Hệ
+ */
+get_header(); ?>
     <section class="bread-crumb">
         <div class="container">
             <div class="row">
@@ -11,7 +15,7 @@
                         </li>
                         <li>
                             <a itemprop="url" href="<?php the_permalink() ?>"><span
-                                        itemprop="title"><?php the_category(',') ?></span></a>
+                                    itemprop="title"><?php the_category(',') ?></span></a>
                             <span><i class="fa fa-angle-right"></i></span>
                         </li>
                     </ul>
@@ -39,7 +43,7 @@
                                 </div>
                                 <div class="blog-item-info col-59">
                                     <h3 class="blog-item-name"><a
-                                                href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+                                            href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
                                     <div class="post-time">
                                         Viết bởi <span><?php the_author() ?></span>, <?php echo the_date() ?>
                                     </div>
@@ -56,12 +60,6 @@
 
                         <?php endif; ?>
                 </section>
-
-                <?php
-                //phan trang
-                    hk_phan_trang();
-                ?>
-
             </section>
             <?php get_sidebar(); ?>
         </div>
