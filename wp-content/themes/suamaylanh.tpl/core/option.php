@@ -659,7 +659,21 @@ function my_plugin_activation()
     )
 ) );
 
-
+    //hotline
+    Redux::setSection( $opt_name, array(
+    'title' => __( 'Số Hotline', 'redux-framework-demo' ),
+    'id'    => 'hotline',
+    'desc'  => __( 'Số điện thoại hotline.', 'redux-framework-demo' ),
+    'icon'  => 'el el-phone',
+    'fields' => array(
+        array(
+            'id'       => 'hotline',
+            'type'     => 'text',
+            'title'    => __( 'Số Hotline ', 'redux-framework-demo' ),
+            'desc'      => __('Nhập số điện thoại hotline tại đây.', 'redux-framework-demo')
+        )
+    )
+) );
 /*
  * <--- END SECTIONS
  */

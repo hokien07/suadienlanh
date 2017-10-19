@@ -3352,6 +3352,18 @@ div#isp_search_result_page_container form {
     color: #f58b11 !important
 }
 
+/*hotline*/
+.hotline-fixed-1 {
+
+}
+.hotline-fixed-1 img {
+
+}
+.hotline-fixed-1 a {
+
+}
+
+
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     .wishlist-grid-view .wishlist-product {
         width: calc(100% / 4) !important

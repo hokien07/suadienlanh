@@ -31,6 +31,38 @@
 	</div>
 </section>
 </footer>
+<div class="hotline-fixed hotline-fxed-1"
+     style="
+        bottom: 2px;
+        right: 2px;
+        background: rgba(0, 0, 0, 0) linear-gradient(to right, #422014, #422014) repeat scroll 0 0 / 100% auto;
+        border-radius: 3px;
+        cursor: pointer;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 10px;
+        position: fixed;
+        transition: all 0.8s ease 0s;
+        width: 200px;
+        z-index: 999;
+    ">
+    <img src="http://cdn.weblando.vn/images/hotline1.png" alt="" class="animate-flicker"
+         style="
+            position: absolute;
+            width: 40px;
+            ">
+    <a href="tel:<?php echo $hk_options['hotline'] ?>" class="affect_text" style="
+            color: #fff;
+            display: inline-block;
+            font-family: sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-decoration: none;
+            text-indent: 50px;
+            animation: my 700ms infinite;
+        "><?php echo $hk_options['hotline'] ?></a>
+</div>
 <script src="<?php bloginfo('template_directory') ?>/js/jquery.min.js"></script>
 <script src="<?php bloginfo('template_directory') ?>/js/jquery-migrate.js"></script>
 <?php wp_footer(); ?>
